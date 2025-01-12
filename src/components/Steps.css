@@ -1,0 +1,51 @@
+.body {
+    font-family: sans-serif; 
+    margin: 0;
+    padding: 20px; 
+     
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    flex-wrap: wrap; 
+}
+
+.step {
+    width: 30%; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.step img {
+    max-width: 100px; 
+    margin-bottom: 10px;
+}
+
+.boutons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: auto; 
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.learn-more {
+    background-color: transparent; 
+    border: 1px solid black; 
+}
+
+.sign-up {
+    background-color: #fff; 
+    color: black;
+}
+

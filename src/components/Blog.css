@@ -1,0 +1,53 @@
+.insights {
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+  .insights-container {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+      flex-wrap: wrap; 
+  }
+  
+  .insight-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 300px; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); 
+      text-align: left; 
+  }
+  .card-image img {
+      max-width: 100%; 
+      height: auto; 
+      display: block; 
+      margin-bottom: 10px;
+  }
+  .card-category {
+      font-size: smaller;
+      color: gray;
+  }
+  .card-time {
+      font-size: smaller;
+      color: gray;
+      float: right; 
+  }
+  
+  .read-more {
+    display: inline-block; 
+    padding: 5px 10px;
+    background-color: #f0f0f0; 
+    text-decoration: none; 
+    color: #333; 
+    border-radius: 3px;
+      margin-top: 10px;
+  }
+  .view-all {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: lightgray;
+      text-decoration: none;
+      color: #333;
+      border-radius: 5px;
+  }

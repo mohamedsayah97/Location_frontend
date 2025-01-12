@@ -1,0 +1,107 @@
+footer {
+  background-color: #F0F0F0; /* Couleur de fond sombre pour le footer */
+  color: black; /* Texte en blanc par défaut */
+  padding: 20px 0; /* Marge intérieure haute et basse */
+}
+
+.container_foot {
+  
+  margin: 0 auto; /* Centrage horizontal */
+  padding: 0 20px; /* Marge intérieure gauche et droite */
+  background-color: white;
+}
+
+.newsletter {
+  text-align: center; /* Centre le texte de la newsletter */
+  margin-bottom: 20px; /* Marge inférieure */
+  padding: 20px 0px;
+}
+
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-columns {
+  display: flex; /* Utilise Flexbox pour la disposition en colonnes */
+  flex-wrap: wrap; /* Permet le passage à la ligne sur les petits écrans */
+  justify-content: space-between; /* Espace uniformément les colonnes */
+}
+
+.column {
+  width: calc(16.66% - 20px);
+  margin-bottom: 20px;
+}
+
+.column h4 {
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 5px;
+}
+
+.column li a {
+  color: black; /* Couleur blanche pour les liens */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+.column li a:hover {
+  text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+#ligne {
+  width: 100%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copyright {
+  border-top: 1px solid black;
+  width: 85%;
+  margin-top: 20px;
+  font-size: small;
+  color: black; /* Texte en blanc */
+  display: flex;
+  gap: 20px;
+}
+
+.copyright p {
+  margin: 0;
+  line-height: 2; /* Espacement entre les lignes */
+}
+
+.copyright a {
+  display: flex; /* Chaque lien sur une nouvelle ligne */
+  color: black; /* Lien en blanc */
+  text-decoration: none; /* Supprime le soulignement par défaut */
+  margin-top: 5px; /* Espacement entre les liens */
+  transition: color 0.3s ease; /* Animation fluide pour le changement de couleur */
+  font-size: 14px;
+  
+}
+
+.copyright a:hover {
+  color: black; /* Change la couleur au survol */
+  text-decoration: none; /* Ajoute un soulignement au survol */
+}

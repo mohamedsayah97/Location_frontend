@@ -1,0 +1,16 @@
+
+.banner {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    color: #111; 
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+  }
