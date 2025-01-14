@@ -4,7 +4,7 @@ import './Discover.css'
 const Discover = () => {
   return (
     <div>
-        <section className="hero">
+        <section className="hero1">
       <div className="hero-content">
         <h1>Discover Your Next Adventure</h1>
         <p>

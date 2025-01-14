@@ -18,12 +18,13 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Book />
       <Steps />
       <Vast />
-      <Blog />
-      <Book />
-      <Cars />
       <Discover />
+      <Cars />
+      <Blog />
+      
       <Footer />
     </>
   )
