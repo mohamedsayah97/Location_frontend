@@ -1,78 +1,71 @@
- 
-  #hero_container{
-    width: 100%;
-    background-color: black;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .container {
-  
-    
-    
-    color: white;
-    
-    flex-direction: column;
-    width: 70%;
-  }
-  
+#hero_container {
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .container h2,.container p{
-     text-align: center;
-    
-  }
-   
-  .main-heading {
-    color: var(--Text-alternate, #FFF);
-    font-family: 'Roboto';
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 120%; /* 67.2px */
-    margin-bottom: 20px;
-  }
-  
-  .sub-text {
-    color: var(--Text-alternate, #FFF);
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
-    margin-bottom: 40px;
-  }
-  
-  .button-group {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .book-button {
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-  }
-  
-  .learn-more-button {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border: 2px solid white;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-  }
-  
-  .book-button:hover, .learn-more-button:hover {
-    transform: scale(1.05);
-  }
-  
-  .book-button:active, .learn-more-button:active {
-    transform: scale(0.95);
-  }
+.container .main-heading,
+.container .sub-text {
+  text-align: center;
+}
+
+.main-heading {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+  width: 800px;
+  text-align: center;
+}
+
+.sub-text {
+  margin: 2rem auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-bottom: 40px;
+  width: 750px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.book-button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.learn-more-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.book-button:hover,
+.learn-more-button:hover {
+  transform: scale(1.05);
+}
+
+.book-button:active,
+.learn-more-button:active {
+  transform: scale(0.95);
+}
